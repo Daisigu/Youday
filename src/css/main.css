@@ -1,0 +1,55 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-image: url('../../src/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgb(106, 179, 204);
+    color: white;
+    font-family: 'Sriracha', cursive;
+
+}
+@media screen and (max-width: 377px){
+    .container{
+        max-width: 377px;
+    }
+    .title{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 377px) and (max-width: 576px){
+    .container{
+        max-width: 576px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .container{
+       max-width: 768px;
+    }
+    }
+    @media screen and (min-width: 769px) and (max-width: 992px){
+        .container{
+           max-width: 992px;
+        }
+        }
+        @media screen and (min-width: 993px) and (max-width: 1200px){
+.container{
+    max-width: 1200px;
+}
+        }
