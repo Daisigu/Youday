@@ -17,9 +17,7 @@ a{
     color: white;
 }
 body{
-    background-image: url('../../src/img/bg.jpg');
-    background-repeat: no-repeat;
-    background-position: top;
+
     background-color: rgb(106, 179, 204);
     color: white;
     font-family: 'Sriracha', cursive;
