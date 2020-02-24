@@ -5,9 +5,8 @@ $(document).ready(function(){
 
 
    $('.slider').slick({
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 4000,
-      dots: true,
       nextArrow: '<i class="fa fa-angle-right" aria-hidden="true"></i>',
       prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>'
     });   

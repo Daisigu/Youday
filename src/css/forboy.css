@@ -1,12 +1,12 @@
-.main-section-title{
+.boys-section-title{
     text-align: center;
 }
-.main-section-flex-wrapper{
+.boys-section-flex-wrapper{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-.main-section__item-wrapper{
+.boys-section__item-wrapper{
 
     position: relative;
 text-align: left;
@@ -14,28 +14,28 @@ display: block;
 width: 100%;
 height: 400px;
 }
-.main-section-item img{
+.boys-section-item img{
   width: 100%;
   border: 10px solid white;
    transform: rotate(20deg);
    padding: 10px;
 
 }
-.main-section-item{
+.boys-section-item{
     padding-top: 200px;
 }
-.main-section__item-img-wrapper{
+.boys-section__item-img-wrapper{
    position: absolute;
    right: 60px;
    top: -70px;
    width: 300px;
    height: 300px;
 }
-.main-section-item p{
+.boys-section-item p{
     width: 60%;
     font-size: 20px;
 }
-.main-section-item h3{
+.boys-section-item h3{
     font-size: 40px;
 }
 .slick-arrow{
@@ -58,15 +58,18 @@ opacity: 0.8;
 .fa-angle-left{
     left: -35px;
 }
-
-.main-section{
-    background-image: url('../img/bgcmain.jpg');
+.boys-section-item{
+    padding-top: 150px;
+}
+.boys-section{
+    background-image: url('../img/bgcgirls.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow:0 0 0 500px rgba(0, 0, 0, 0.33) inset;
+    box-shadow:0 0 0 500px rgba(0, 0, 0, 0.514) inset;
+    padding-bottom: 200px;
 }
-.main-section__slide-title{
+.boys-section__slide-title{
     padding-top: 350px;
     padding-bottom: 350px;
     padding-left: 100px;

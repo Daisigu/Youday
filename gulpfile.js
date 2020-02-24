@@ -32,6 +32,8 @@ const styleFiles = [
    './src/css/main.css',
    './src/css/header.css',
    './src/css/main-section.css',
+   './src/css/party-section.css',
+   './src/css/girls-section.css',
    './src/css/map.css',
    './src/css/main-footer.css',
    './src/css/forboy.css',
