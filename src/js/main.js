@@ -11,7 +11,7 @@ $(document).ready(function(){
       prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>'
     });   
     
-    $('.main-footer__ul__title').click(function(event){
-       $(this).toggleClass('active').nextAll('.main-footer__item').slideToggle(300);
+    $('.girls-section-item-detail').click(function(event){
+       $(this).toggleClass('active').next().slideToggle(300);
     });  
 });
