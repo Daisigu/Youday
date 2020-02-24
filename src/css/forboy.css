@@ -9,7 +9,7 @@
 .boys-section__item-wrapper{
 
     position: relative;
-text-align: left;
+text-align: right;
 display: block;
 width: 100%;
 height: 500px;
@@ -26,13 +26,14 @@ height: 500px;
 }
 .boys-section__item-img-wrapper{
    position: absolute;
-   right: 60px;
+   left: 60px;
    top: -70px;
    width: 300px;
    height: 300px;
 }
 .boys-section-item p{
     width: 60%;
+    margin-left: auto;
     font-size: 20px;
 }
 .boys-section-item h3{
@@ -42,14 +43,14 @@ height: 500px;
     font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 70%;
+    top: 50%;
     display: block;
     width: 20px;
     height: 20px;
     padding: 0;     
 }
 .fa-angle-right{
-    right: -15px;
+    right: -35px;
 }
 .slider .fa{
 font-size: 50px;
