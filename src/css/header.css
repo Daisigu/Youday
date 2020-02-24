@@ -1,5 +1,5 @@
 .header__logo-wrapper{
-width: 250px;
+width: 200px;
 height: 150px;
 }
 .header__logo-wrapper img{
@@ -9,4 +9,23 @@ height: 100%;
 }
 .main-header{
     background-color: white;
+}
+.header-menu{
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+.boys-section-title{
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+}
+.header-menu-item{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    
 }
