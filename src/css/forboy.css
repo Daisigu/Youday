@@ -68,6 +68,7 @@ opacity: 0.8;
     background-repeat: no-repeat;
     box-shadow:0 0 0 500px rgba(0, 0, 0, 0.514) inset;
     padding-bottom: 100px;
+    padding-top: 100px;
 }
 .boys-section__slide-title{
     padding-top: 350px;
