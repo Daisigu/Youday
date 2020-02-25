@@ -11,7 +11,12 @@ max-height: 100%;
     background-color: white;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 1;   
+}
+.border-wrapper{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 25px;
 }
 .header-menu{
     padding-left: 0;
@@ -21,6 +26,7 @@ max-height: 100%;
     color: black;
     font-size: 20px;
     margin: 7px;
+    
     font-family: 'Pacifico';
 }
 .boys-section-title{
@@ -29,11 +35,15 @@ max-height: 100%;
     padding-top: 40px;
 }
 .header-menu-item{
-    border: 2px solid black;
-    border-radius: 25px;
+border-right: 2px solid black;
     padding: 10px;
-
-    
+}
+.header-menu-item a:hover{
+    color: rgb(177, 168, 168);
+ 
+}
+.header-menu-item:last-child{
+    border: none;
 }
 .header-menu-item a{
     color: black;
