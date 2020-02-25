@@ -51,4 +51,15 @@ body{
 .container{
     max-width: 1200px;
 }
+
+.girls-section-item img{
+    max-width: 200px;
+    border: 10px solid white;
+     transform: rotate(20deg);
+     padding: 10px;
+  }
+  .border-wrapper{
+      font-size: 15px;
+  }
         }
+  
