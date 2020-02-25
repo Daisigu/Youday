@@ -36,6 +36,7 @@ const styleFiles = [
    './src/css/party-section.css',
    './src/css/girls-section.css',
    './src/css/map.css',
+   './src/css/contacts.css',
    './src/css/main-footer.css',
    './src/css/forboy.css',
    './src/lib/slick-1.8.1/slick/slick.css',

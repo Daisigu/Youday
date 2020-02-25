@@ -17,7 +17,7 @@ height: 500px;
 .boys-section-item img{
   width: 100%;
   border: 10px solid white;
-   transform: rotate(20deg);
+   transform: rotate(-20deg);
    padding: 10px;
 
 }
