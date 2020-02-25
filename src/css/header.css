@@ -42,6 +42,24 @@ border-right: 2px solid black;
     color: rgb(177, 168, 168);
  
 }
+.header-menu-item:nth-child(1) a:hover{
+    color: rgb(5, 202, 252);
+}
+.header-menu-item:nth-child(2) a:hover{
+    color: rgba(59, 218, 99, 0.705);
+}
+.header-menu-item:nth-child(3) a:hover{
+    color: rgb(245, 79, 195);
+}
+.header-menu-item:nth-child(4) a:hover{
+    color: rgb(240, 167, 99);
+}
+.header-menu-item:nth-child(5) a:hover{
+    color: rgb(163, 94, 241);
+}
+.header-menu-item:nth-child(6) a:hover{
+    color: rgb(147, 168, 173);
+}
 .header-menu-item:last-child{
     border: none;
 }

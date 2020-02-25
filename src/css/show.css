@@ -1,12 +1,12 @@
-.boys-section-title{
+.show-title{
     text-align: center;
 }
-.boys-section-flex-wrapper{
+.show-flex-wrapper{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-.boys-section__item-wrapper{
+.show__item-wrapper{
 
     position: relative;
 text-align: right;
@@ -16,29 +16,29 @@ height: 500px;
 padding-left: 20px;
 padding-right: 20px;
 }
-.boys-section-item img{
+.show-item img{
   width: 100%;
   border: 10px solid white;
    transform: rotate(-20deg);
    padding: 10px;
 
 }
-.boys-section-item{
+.show-item{
     padding-top: 200px;
 }
-.boys-section__item-img-wrapper{
+.show__item-img-wrapper{
    position: absolute;
    left: 60px;
    top: -70px;
    width: 300px;
    height: 300px;
 }
-.boys-section-item p{
+.show-item p{
     width: 60%;
     margin-left: auto;
     font-size: 20px;
 }
-.boys-section-item h3{
+.show-item h3{
     font-size: 40px;
 }
 .slick-arrow{
@@ -61,10 +61,10 @@ opacity: 0.8;
 .fa-angle-left{
     left: -35px;
 }
-.boys-section-item{
+.show-item{
     padding-top: 150px;
 }
-.boys-section{
+.show{
     background-image: url('../img/bgcgirls.jpg');
     background-position: top;
     background-size: cover;
@@ -73,7 +73,7 @@ opacity: 0.8;
     padding-bottom: 100px;
     padding-top: 100px;
 }
-.boys-section__slide-title{
+.show__slide-title{
     padding-top: 350px;
     padding-bottom: 350px;
     padding-left: 100px;
