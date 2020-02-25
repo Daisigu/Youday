@@ -17,7 +17,7 @@ padding-left: 20px;
 padding-right: 20px;
 }
 .boys-section-item img{
-  width: 90%;
+  width: 100%;
   border: 10px solid white;
   transform: rotate(-20deg);
   padding: 10px;
@@ -53,13 +53,14 @@ padding-right: 20px;
 .fa-angle-right{
     right: -10px;
 }
+.fa-angle-left{
+    left: -5px;
+}
 .slider .fa{
 font-size: 50px;
 opacity: 0.8;
 }
-.fa-angle-left{
-    left: -5px;
-}
+
 .boys-section-item{
     padding-top: 150px;
 }
@@ -68,7 +69,7 @@ opacity: 0.8;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow:0 0 0 500px rgba(0, 0, 0, 0.514) inset;
+    box-shadow:0 0 0 5011110px rgba(0, 0, 0, 0.514) inset;
     padding-bottom: 100px;
     padding-top: 100px;
 }
