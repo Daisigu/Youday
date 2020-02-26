@@ -41,6 +41,51 @@ body{
     .container{
        max-width: 768px;
     }
+    .header__logo-wrapper{
+        width: 100px;
+        height: 50px;
+    }
+    .boys-section__item-img-wrapper{
+        left: 42px;
+        top: 70px;
+     }
+     .fa-angle-right{
+        right: -10px;
+    }
+    .fa-angle-left{
+        left: 15px;
+    }
+    .about-list-item h2{
+        font-size: 20px;
+    }
+    .about-list-item p{
+        font-size: 15px;
+       padding-left: 20px;
+       padding-right: 20px;
+    }
+    
+     .border-wrapper{
+        font-size: 9px;
+        
+            }
+            .header-menu-item{
+                padding: 2px;
+            }
+            .header-menu p{
+                font-size: 10px;
+            }
+            .boys-section-item img{
+                width: 55%;}
+            .boys-section-item h3{
+                font-size: 30px;
+            }
+            .boys-section-item p{
+                font-size: 15px;
+            }
+            .about-list-item p{
+                width: 130px;
+                margin: 0 auto;
+            }
     }
     @media screen and (min-width: 769px) and (max-width: 992px){
         .container{
@@ -65,8 +110,8 @@ body{
            padding-right: 20px;
         }
         
-  .border-wrapper{
-    font-size: 11px;
+         .border-wrapper{
+            font-size: 11px;
                 }
                 .header-menu p{
                     font-size: 10px;
