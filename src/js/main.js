@@ -51,7 +51,7 @@ $(document).ready(function(){
 
 
     
-    $('.boys-section-item-detail').click(function(event){
+    $('.animators-section-item-detail').click(function(event){
        $(this).toggleClass('active').next().slideToggle(300);
     });  
 

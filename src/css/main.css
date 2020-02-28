@@ -42,12 +42,31 @@ body{
     }
     .animators-section__item-wrapper p{
        margin: 0 auto;
-        width: 300px;
+        width: 250px;
+    }
+    .animators-section-item{
+        padding-top: 50px;
+    }
+    .about-list-item p{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .about-list-item{
+        margin: 0 auto;
+    }
+    .footer-contacts-list-item{
+        font-size: 13px;
+    }
+    .footer-contacts-list{
+        padding-left: 10px;
     }
 }
 @media screen and (min-width: 377px) and (max-width: 576px){
     .container{
         max-width: 576px;
+    }
+    .animators-section-item{
+        padding-top: 50px;
     }
     .about-list{
         flex-wrap: wrap;
@@ -163,10 +182,12 @@ transition: all 0.3s ease 0s;
         top: 70px;
      }
      .fa-angle-right{
-        right: 10px;
+        right: -10px;
+     top: 33%;
     }
     .fa-angle-left{
-        left: 10px;
+        left: -10px;
+        top: 33%;
     }
     .about-list-item h2{
         font-size: 20px;
@@ -183,12 +204,14 @@ transition: all 0.3s ease 0s;
                 width: 55%;}
             .animators-section-item h3{
                 font-size: 30px;
+                margin-top: 0;
             }
             .animators-section-item p{
                 font-size: 15px;
             }
             .about-list-item p{
-                width: 130px;
+                width: 150px;
+      
                 margin: 0 auto;
             }
 }
