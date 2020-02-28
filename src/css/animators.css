@@ -1,7 +1,7 @@
-.boys-section-title{
+.animators-section-title{
     text-align: center;
 }
-.boys-section-flex-wrapper{
+.animators-section-flex-wrapper{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -9,7 +9,7 @@
 .l-slider-item p{
     text-align: center;
 }
-.boys-section-item-detail{
+.animators-section-item-detail{
     font-size: 20px;
     position: relative;
     border: 2px solid white;
@@ -21,16 +21,16 @@
     color: inherit;
     margin: 10px auto;
 }
-.boys-section-item-detail::after{
+.animators-section-item-detail::after{
     transform: rotate(-40deg);
     right: 15px;
 }
-.boys-section-item-detail::before{
+.animators-section-item-detail::before{
     transform: rotate(40deg);
     right: 23px;
 }
-.boys-section-item-detail::after,
-.boys-section-item-detail::before{
+.animators-section-item-detail::after,
+.animators-section-item-detail::before{
     content: '';
     width: 10px;
     height: 1px;
@@ -40,7 +40,7 @@
     -webkit-transition: .3s;
     transition: .3s;
 }
-.boys-section__item-wrapper{
+.animators-section__item-wrapper{
 
     position: relative;
 text-align: right;
@@ -51,28 +51,28 @@ padding-left: 20px;
 padding-right: 20px;
 
 }
-.boys-section-item img{
+.animators-section-item img{
   width: 100%;
   border: 10px solid white;
   transform: rotate(-20deg);
   padding: 10px;
 }
-.boys-section-item{
+.animators-section-item{
     padding-top: 200px;
 }
-.boys-section__item-img-wrapper{
+.animators-section__item-img-wrapper{
    position: absolute;
    left: 55px;
    top: 20px;
    max-width: 300px;
    max-height: 300px;
 }
-.boys-section-item p{
+.animators-section-item p{
     width: 60%;
     margin-left: auto;
     font-size: 20px;
 }
-.boys-section-item h3{
+.animators-section-item h3{
     font-size: 40px;
 }
 .slick-arrow{
@@ -101,10 +101,10 @@ opacity: 0.8;
     border: 10px solid white;
     margin: 0 auto;
 }
-.boys-section-item{
+.animators-section-item{
     padding-top: 150px;
 }
-.boys-section{
+.animators-section{
     background-image: url('../img/bgcgirls.jpg');
     background-position: top;
     background-size: cover;
@@ -113,7 +113,7 @@ opacity: 0.8;
     padding-bottom: 200px;
     padding-top: 100px;
 }
-.boys-section__slide-title{
+.animators-section__slide-title{
     padding-top: 350px;
     padding-bottom: 350px;
     padding-left: 100px;

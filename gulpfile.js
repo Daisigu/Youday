@@ -29,18 +29,11 @@ const rename = require('gulp-rename');
 const styleFiles = [
    './src/css/normalize.css',
    './src/css/fonts.css',
-   
    './src/css/header.css',
-   './src/css/party.css',
-   './src/css/show.css',
-   './src/css/main-section.css',
    './src/css/about.css',
-   './src/css/party-section.css',
-   './src/css/girls-section.css',
-   './src/css/map.css',
    './src/css/contacts.css',
    './src/css/main-footer.css',
-   './src/css/forboy.css',
+   './src/css/animators.css',
    './src/css/main.css',
    './src/lib/slick-1.8.1/slick/slick.css',
    './src/lib/slick-1.8.1/slick/slick-theme.css'

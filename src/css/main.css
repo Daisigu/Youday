@@ -34,13 +34,13 @@ body{
     .about-list-item{
         width: 150px;
     }
-    .boys-section__item-img-wrapper{
+    .animators-section__item-img-wrapper{
         display: none;
     }
-    .boys-section__item-wrapper{
+    .animators-section__item-wrapper{
         text-align: center;
     }
-    .boys-section__item-wrapper p{
+    .animators-section__item-wrapper p{
        margin: 0 auto;
         width: 300px;
     }
@@ -55,13 +55,13 @@ body{
     .about-list-item{
         width: 150px;
     }
-    .boys-section__item-img-wrapper{
+    .animators-section__item-img-wrapper{
         display: none;
     }
-    .boys-section__item-wrapper{
+    .animators-section__item-wrapper{
         text-align: center;
     }
-    .boys-section__item-wrapper p{
+    .animators-section__item-wrapper p{
        margin: 0 auto;
         width: 300px;
     }
@@ -158,7 +158,7 @@ transition: all 0.3s ease 0s;
         height: 50px;
         z-index: 10;
     }
-    .boys-section__item-img-wrapper{
+    .animators-section__item-img-wrapper{
         left: 42px;
         top: 70px;
      }
@@ -179,12 +179,12 @@ transition: all 0.3s ease 0s;
     
  
             
-            .boys-section-item img{
+            .animators-section-item img{
                 width: 55%;}
-            .boys-section-item h3{
+            .animators-section-item h3{
                 font-size: 30px;
             }
-            .boys-section-item p{
+            .animators-section-item p{
                 font-size: 15px;
             }
             .about-list-item p{
@@ -203,7 +203,7 @@ transition: all 0.3s ease 0s;
         .container{
            max-width: 992px;
         }
-        .boys-section__item-img-wrapper{
+        .animators-section__item-img-wrapper{
             left: 42px;
             top: 70px;
          }
@@ -232,12 +232,12 @@ transition: all 0.3s ease 0s;
                 .header-menu p{
                     font-size: 10px;
                 }
-                .boys-section-item img{
+                .animators-section-item img{
                     width: 75%;}
-                .boys-section-item h3{
+                .animators-section-item h3{
                     font-size: 30px;
                 }
-                .boys-section-item p{
+                .animators-section-item p{
                     font-size: 19px;
                 }
                 .about-list-item p{
@@ -249,7 +249,7 @@ transition: all 0.3s ease 0s;
 .container{
     max-width: 1200px;
 }
-.boys-section-item img{
+.animators-section-item img{
     width: 90%;}
   .header-menu{
       font-size: 15px;
