@@ -10,6 +10,17 @@ $(document).ready(function(){
       nextArrow: '<i class="fa fa-angle-right" aria-hidden="true"></i>',
       prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>'
     });   
+
+    $('.l-slider').slick({
+      autoplay: false,
+      dots: true,
+      autoplaySpeed: 4000,
+      nextArrow: '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+      prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>'
+    });   
+
+
+
     
     $('.girls-section-item-detail').click(function(event){
        $(this).toggleClass('active').next().slideToggle(300);

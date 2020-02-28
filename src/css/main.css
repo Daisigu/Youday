@@ -33,6 +33,12 @@ body{
     .container{
         max-width: 576px;
     }
+    .about-list{
+        flex-wrap: wrap;
+    }
+    .about-list-item{
+        width: 150px;
+    }
 }
 @media (max-width: 768px){
     .header__burger{
