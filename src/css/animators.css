@@ -11,6 +11,9 @@
 .gallery-item p{
     text-align: center;
 }
+.animators-section-item-detail.active{
+    display: inline;
+}
 .gallery{
     display: flex;
     justify-content: space-around;
@@ -26,6 +29,16 @@
     height: 250px;
     width: 250px;
     margin: 10px;
+}
+.l-slick-item img{
+    height: 250px;
+     width: 250px;
+     margin: 10px;
+     border: 10px solid white;
+     margin: 0 auto;
+ }
+.l-slider{
+    display: none;
 }
 .animators-section-item-detail{
     font-size: 20px;
