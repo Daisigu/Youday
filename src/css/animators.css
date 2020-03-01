@@ -1,5 +1,6 @@
 .animators-section-title{
     text-align: center;
+    padding-top: 50px;
 }
 .animators-section-flex-wrapper{
     display: flex;
@@ -20,6 +21,7 @@
     background-color: rgba(255, 255, 255, 0);
     color: inherit;
     margin: 10px auto;
+    outline: none;
 }
 .animators-section-item-detail::after{
     transform: rotate(-40deg);
@@ -28,6 +30,17 @@
 .animators-section-item-detail::before{
     transform: rotate(40deg);
     right: 23px;
+}
+.animators-section-item-detail.active::after{
+    transform: rotate(40deg);
+    right: 15px;
+}
+.animators-section-item-detail.active::before{
+    transform: rotate(-40deg);
+    right: 23px;
+}
+.item-price{
+    display: none;
 }
 .animators-section-item-detail::after,
 .animators-section-item-detail::before{
@@ -103,6 +116,9 @@ opacity: 0.8;
 }
 .animators-section-item{
     padding-top: 150px;
+}
+.slider__item:focus {
+    outline: none ;
 }
 .animators-section{
     background-image: url('../img/bgcgirls.jpg');
