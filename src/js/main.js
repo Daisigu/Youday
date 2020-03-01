@@ -7,6 +7,7 @@ $(document).ready(function(){
    $('.slider').slick({
       autoplay: false,
       autoplaySpeed: 4000,
+      swipe: false,
       nextArrow: '<i class="fa fa-angle-right" aria-hidden="true"></i>',
       prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>'
     });   
@@ -14,6 +15,9 @@ $(document).ready(function(){
    $('.l-slider').slick({
     autoplay: true,
     autoplaySpeed: 2000,
+    pauseOnHover: false,
+    pauseOnFocus: true,
+    pauseOnDotsHover: false,
     nextArrow: false,
     prevArrow: false,
       responsive: [
