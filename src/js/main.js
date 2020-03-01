@@ -12,11 +12,15 @@ $(document).ready(function(){
     });   
 
    $('.l-slider').slick({
-
+    autoplay: true,
+    autoplaySpeed: 2000,
+    nextArrow: false,
+    prevArrow: false,
       responsive: [
         {
           breakpoint: 660,
           settings: {
+          
             slidesToShow: 1,
             slidesToScroll: 1
           }

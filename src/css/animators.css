@@ -10,6 +10,7 @@
 }
 .gallery-item p{
     text-align: center;
+    font-size: 25px;
 }
 .animators-section-item-detail.active{
     display: inline;
@@ -22,8 +23,9 @@
 .gallery-item img{
    width: 100%;
    height: 100%;
-    border: 10px solid white;
     margin: 0 auto;
+    border: 10px solid green;
+border-image: 9 repeating-linear-gradient(45deg, rgb(9, 42, 228), rgb(120, 199, 212) 10px, #F8463F 20px, rgb(231, 41, 34) 30px);
 }
 .gallery-item{
     height: 250px;
@@ -34,8 +36,18 @@
     height: 250px;
      width: 250px;
      margin: 10px;
-     border: 10px solid white;
+     border: 10px solid green;
+border-image: 9 repeating-linear-gradient(45deg, rgb(9, 42, 228), rgb(120, 199, 212) 10px, #F8463F 20px, rgb(231, 41, 34) 30px);
      margin: 0 auto;
+ }
+
+ .l-slider{
+    display: none !important;
+     padding-top: 30px;
+ }
+ .l-slick-item p{
+     text-align: center;
+     font-size: 25px;
  }
 .l-slider{
     display: none;
@@ -144,6 +156,9 @@ opacity: 0.8;
 }
 .slider__item:focus {
     outline: none ;
+}
+.l-slick-item:focus{
+    outline: none;
 }
 .animators-section{
     background-image: url('../img/bgcgirls.jpg');

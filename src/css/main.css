@@ -29,7 +29,7 @@ body{
     display: none;
 }
 .l-slider{
-    display: block;
+    display: block !important;
 }
 }
 @media screen and (max-width: 377px){
@@ -69,10 +69,18 @@ body{
     .footer-contacts-list{
         padding-left: 10px;
     }
+    .discription-item{
+        margin: 0 auto;
+         width: 300px;
+         font-size: 16px;
+     }
 }
 @media screen and (min-width: 377px) and (max-width: 576px){
     .container{
         max-width: 576px;
+    }
+    .disctription-item p{
+        font-size: 15px;
     }
     .animators-section-item{
         padding-top: 50px;
@@ -89,9 +97,10 @@ body{
     .animators-section__item-wrapper{
         text-align: center;
     }
-    .animators-section__item-wrapper p{
+    .discription-item{
        margin: 0 auto;
         width: 300px;
+        font-size: 16px;
     }
 }
 @media (max-width: 768px){
@@ -215,9 +224,7 @@ transition: all 0.3s ease 0s;
                 font-size: 30px;
                 margin-top: 0;
             }
-            .animators-section-item p{
-                font-size: 15px;
-            }
+       
             .about-list-item p{
                 width: 150px;
       
