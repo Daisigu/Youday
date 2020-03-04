@@ -219,7 +219,7 @@ transition: all 0.3s ease 0s;
  
             
             .animators-section__item-img-wrapper img{
-                width: 55%;}
+                width: 59%;}
             .animators-section-item h3{
                 font-size: 30px;
                 margin-top: 0;
@@ -229,6 +229,9 @@ transition: all 0.3s ease 0s;
                 width: 150px;
       
                 margin: 0 auto;
+            }
+            .discription-item{
+                font-size: 18px;
             }
 }
 @media screen and (min-width: 577px) and (max-width: 768px){
@@ -250,7 +253,7 @@ transition: all 0.3s ease 0s;
             right: -10px;
         }
         .fa-angle-left{
-            left: 15px;
+            left: -15px;
         }
         .about-list-item h2{
             font-size: 23px;

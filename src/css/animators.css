@@ -28,8 +28,8 @@
 border-image: 9 repeating-linear-gradient(45deg, rgb(9, 42, 228), rgb(120, 199, 212) 10px, #F8463F 20px, rgb(231, 41, 34) 30px);
 }
 .gallery-item{
-    height: 250px;
-    width: 250px;
+    height: 290px;
+    width: 300px;
     margin: 10px;
 }
 .l-slick-item img{
@@ -101,7 +101,7 @@ border-image: 9 repeating-linear-gradient(45deg, rgb(9, 42, 228), rgb(120, 199, 
 text-align: right;
 display: block;
 width: 100%;
-height: 800px;
+height: 1000px;
 padding-left: 20px;
 padding-right: 20px;
 
@@ -134,7 +134,7 @@ padding-right: 20px;
     font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 50%;
+    top: 33%;
     display: block;
     width: 20px;
     height: 20px;
@@ -147,12 +147,12 @@ padding-right: 20px;
     left: -5px;
 }
 .slider .fa{
-font-size: 50px;
+font-size: 70px;
 opacity: 0.8;
 }
 
 .animators-section-item{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 .slider__item:focus {
     outline: none ;
@@ -166,7 +166,7 @@ opacity: 0.8;
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow:0 0 0 5011110px rgba(0, 0, 0, 0.548) inset;
-    padding-bottom: 200px;
+    padding-bottom: 00px;
     padding-top: 100px;
 }
 .animators-section__slide-title{
