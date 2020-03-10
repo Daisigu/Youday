@@ -74,6 +74,9 @@ body{
          width: 300px;
          font-size: 16px;
      }
+     .animators-section-title{
+         padding: 0;
+     }
 }
 @media screen and (min-width: 377px) and (max-width: 576px){
     .container{
