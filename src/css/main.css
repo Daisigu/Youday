@@ -92,7 +92,8 @@ body{
         flex-wrap: wrap;
     }
     .about-list-item{
-        width: 150px;
+        width: 170px;
+        margin: 0 auto;
     }
     .animators-section__item-img-wrapper{
         display: none;
