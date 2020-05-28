@@ -33,8 +33,10 @@ const styleFiles = [
 ]
 //Порядок подключения js файлов
 const scriptFiles = [
+   './src/js/jquery-3.4.1.min.js',
    './src/js/lib.js',
-   './src/js/main.js'
+   './src/js/main.js',
+   './src/lib/slick-1.8.1/slick/slick.min.js'
 ]
 
 //Таск для обработки стилей
