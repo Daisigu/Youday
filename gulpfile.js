@@ -27,13 +27,6 @@ const rename = require('gulp-rename');
 
 //Порядок подключения файлов со стилями
 const styleFiles = [
-   './src/css/normalize.css',
-   './src/css/fonts.css',
-   './src/css/header.css',
-   './src/css/about.css',
-   './src/css/contacts.css',
-   './src/css/main-footer.css',
-   './src/css/animators.css',
    './src/css/main.css',
    './src/lib/slick-1.8.1/slick/slick.css',
    './src/lib/slick-1.8.1/slick/slick-theme.css'

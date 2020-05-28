@@ -12,293 +12,125 @@ html{
 li{
     list-style: none;
 }
+.main-header{
+    display: block;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    z-index: 5;
+}
 a{
     text-decoration: none;
     color: white;
 }
+.main-header-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: baseline;
+}
+.header-logo{
+    align-self: center;
+}
 
+.main-header-item{
+    margin: 10px;
+}
 body{
-
+    font-family: Comfortaa;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header-button{
     color: white;
-    font-family: 'Sriracha', cursive;
-    /*font-family: 'Caveat';*/
-
-}
-@media screen and (max-width: 660px){
-.gallery{
-    display: none;
-}
-.l-slider{
-    display: block !important;
-}
-}
-@media screen and (max-width: 377px){
-    .container{
-        max-width: 377px;
-    }
-    .about-list{
-        flex-wrap: wrap;
-    }
-    .about-list-item{
-        width: 150px;
-    }
-    .animators-section__item-img-wrapper{
-        display: none;
-    }
-    .animators-section__item-wrapper{
-        text-align: center;
-    }
-    .animators-section__item-wrapper p{
-       margin: 0 auto;
-        width: 250px;
-    }
-    .animators-section-item{
-        padding-top: 50px;
-       
-    }
-    .about-list-item p{
-        width: 200px;
-        margin: 0 auto;
-    }
-    .about-list-item{
-        margin: 0 auto;
-    }
-    .footer-contacts-list-item{
-        font-size: 14px;
-    }
-    .footer-contacts-list{
-        padding-left: 10px;
-    }
-    .discription-item{
-        margin: 0 auto;
-         width: 300px;
-         font-size: 16px;
-     }
-     .animators-section-title{
-         padding: 0;
-     }
-}
-@media screen and (min-width: 377px) and (max-width: 576px){
-    .container{
-        max-width: 576px;
-    }
-    .disctription-item p{
-        font-size: 15px;
-    }
-    .animators-section-item{
-        padding-top: 50px;
-    }
-    .about-list{
-        flex-wrap: wrap;
-    }
-    .about-list-item{
-        width: 170px;
-        margin: 0 auto;
-    }
-    .animators-section__item-img-wrapper{
-        display: none;
-    }
-    .animators-section__item-wrapper{
-        text-align: center;
-    }
-    .discription-item{
-       margin: 0 auto;
-        width: 300px;
-        font-size: 16px;
-    }
-}
-@media (max-width: 768px){
-    .header__burger{
-        display: inline-block;
-        position: relative;
-        width: 30px;
-        height: 20px;
-        z-index: 20;
-        transition: all 0.3s ease 0s;
-        cursor: pointer;
-       margin-top: 30px;
-    }
-    .header__burger:before,
-    .header__burger:after{
-        content: '';
-        background-color: black;
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        left: 10px;
-        transition: all 0.3s ease 0s;
-        cursor: pointer;
-    }
-    .header__burger:before{
-        top: 0px;
-    }
-    .header__burger:after{
-        top: -9px;
-    }
-.header__burger span{
-    position: absolute;
-    background-color: black;
-    left: 10px;
-    width: 100%;
-    height: 2px;
-    top: 9px;
-    
-}
-.header__burger.active::after{
-transform: rotate(45deg);
-top: 0px;
-}
-.header__burger.active::before{
-   
-    transform: rotate(-45deg);
-    top: 0px;
-    }
-    .header__burger.active span{
-        transform: scale(0);
-    }
-.header-contacts{
-    display: none;
-}
-    .header-menu{
-      position: fixed;
-      top: -100%;
-      left: 0;
-      width: 100%;
- 
-    background-color: white;
-    border: none;
-    border-radius: 0;
-    text-align: center;
-height: 290px;
-margin: 0;
-padding-top: 10px;
-transition: all 0.3s ease 0s;
-    }
-    .header-menu.active{
-        top:0;
-        transition: all 0.3s ease 0s;
-    }
-    .header-menu li{
+        border-radius: 19px;
+        align-self: flex-start;
+        background: linear-gradient( -51deg, rgb(207,99,230) 0%, rgb(170,84,234) 73%, rgb(133,69,238) 100%);
+        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.33);
+        width: 185px;
         border: none;
-    }
-    .active{
-        display: block;
-    }
-    .header-flex-wrapper{
-        display: inline-block;  
-        justify-content: flex-end;
-        padding: 0;
-        z-index: 5;
-        position: absolute;
-        right: 5px;
-        top: 5px;
-
-    }
-    .header__logo-wrapper{
-        width: 50px;
-        height: 50px;
-        z-index: 10;
-    }
-    .animators-section__item-img-wrapper{
-        left: 42px;
-        top: 70px;
-     }
-     .fa-angle-right{
-        right: -10px;
-     top: 33%;
-    }
-    .fa-angle-left{
-        left: -10px;
-        top: 33%;
-    }
-    .about-list-item h2{
-        font-size: 20px;
-    }
-    .about-list-item p{
-        font-size: 15px;
-       padding-left: 20px;
-       padding-right: 20px;
-    }
-    
+        font-family: inherit;
+        height: 48px;
+     
+}
+/*  Мы - аниматоры */
+.main-title{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #ffefef;
+    position: relative;
  
-            
-            .animators-section__item-img-wrapper img{
-                width: 59%;}
-            .animators-section-item h3{
-                font-size: 30px;
-                margin-top: 0;
-            }
-       
-            .about-list-item p{
-                width: 150px;
-      
-                margin: 0 auto;
-            }
-            .discription-item{
-                font-size: 18px;
-            }
 }
-@media screen and (min-width: 577px) and (max-width: 768px){
-    .container{
-       max-width: 768px;
-    }
-
-   
-    }
-    @media screen and (min-width: 769px) and (max-width: 992px){
-        .container{
-           max-width: 992px;
-        }
-        .animators-section__item-img-wrapper{
-            left: 42px;
-            top: 70px;
-         }
-         .fa-angle-right{
-            right: -10px;
-        }
-        .fa-angle-left{
-            left: -15px;
-        }
-        .about-list-item h2{
-            font-size: 23px;
-        }
-        .about-list-item p{
-            font-size: 15px;
-           padding-left: 20px;
-           padding-right: 20px;
-        }
-        
-         .header-menu{
-            font-size: 11px;
-                }
-                .header__logo-wrapper{
-                    width: 50px;
-                    height: 50px;
-                }
-                .header-menu p{
-                    font-size: 10px;
-                }
-                .animators-section__item-img-wrapper img{
-                    width: 75%;}
-                .animators-section-item h3{
-                    font-size: 30px;
-                }
-                .animators-section-item p{
-                    font-size: 19px;
-                }
-                .about-list-item p{
-                    width: 170px;
-                    margin: 0 auto;
-                }
-        }
-        @media screen and (min-width: 993px) and (max-width: 1200px){
-.container{
-    max-width: 1200px;
+.bc-wave{ 
+    position: absolute;
+    width: 500px;
+    top: -20px;
 }
-.animators-section__item-img-wrapper img{
-    width: 90%;}
-  .header-menu{
-      font-size: 15px;
-  }
-        }
+.bc-circle{
+    position: absolute;
+    right: 0;
+    width: 350px;
+}
+.main-block{
   
+    color: white;
+    margin: 0 auto;
+    background-color: #ad6cbb;
+    height: 480px;
+    width: 750px;
+    border-radius: 50px;
+    opacity: 0.89;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 40px 100px 72px 100px;
+}
+.main-block h1{
+    font-size: 52px;
+    margin: 0;
+}
+.main-block h3{
+    font-size: 30px;
+}
+.main-block h3::after
+{
+    content: "";
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    opacity: 0.5;
+    height: 3px;
+    background: white;
+}
+.main-block p{
+    font-size: 20px;
+}
+
+
+/* О нас */
+.about-us-img{
+    display: inline-block;
+    width: 420px;
+    height: 480px;
+}
+.about-us-img img{
+    width: 100%;
+    height: 100%;
+}
+.about-us-block{
+    display: inline-block;
+    color: white;
+    width: 340px; 
+    height: 560px;
+    margin: 0 auto;
+    background-color: #ad6cbb;
+    border-radius: 50px;
+    opacity: 0.89;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 50px;
+}
