@@ -240,8 +240,8 @@ padding-top: 6px;
 }
 .bc-circle4{
     position: absolute;
-    left: -450px;
-    top: 70px;
+    left: 0;
+    
     width: 650px;
 }
 .characters-nav .slick-center{
@@ -311,7 +311,7 @@ padding-top: 6px;
 .show-for-img{
     position: absolute;
     left: 560px;
-    bottom: 393px;
+    bottom: 390px;
     width: 420px;
     height: 480px;
 }
@@ -335,11 +335,10 @@ padding-top: 6px;
 }
 .bc-candy{
     position: absolute;
-    top: -100px;
-    left: 750px;
+    right: 0;
     width: 400px;
 }
-.characters-nav .slick-center{
+.show-nav .slick-center{
     padding-top: 1px;
     font-size: 25px;
 }
