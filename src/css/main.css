@@ -411,7 +411,62 @@ padding-top: 6px;
     padding-top: 20px;
     margin: 0 auto;
 }
-.new-year img::after, .graduation img::after, .candy-bar img::after{
+.new-year, .graduation, .candy-bar{
+    position: relative;
 }
-
-
+.new-year h2::before{
+    content: "";
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0.5;
+    margin-top: 9px;
+    margin-bottom: 20px;
+    height: 2px;
+    background: white;
+}
+.graduation h2::before, .candy-bar h2::before{
+    content: "";
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0.5;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    height: 2px;
+    background: white;
+}   
+.new-year h2, .graduation h2, .candy-bar h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+.new-year p, .graduation p, .candy-bar p{
+    color: white;
+    text-align: center;
+    padding-left: 15px;
+    font-size: 20px;
+    padding-right: 15px;
+}
+.new-year span, .graduation span, .candy-bar span{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 15px;
+}
+.new-year span::before, .graduation span::before, .candy-bar span::before{
+    content: "";
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0.5;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    height: 2px;
+    background: white;
+}
