@@ -229,9 +229,9 @@ body{
 .slider-for-img{
     position: absolute;
     left: 380px;
-    bottom: 479px;
-    max-width: 420px;
-    max-height: 480px;
+    bottom: 475px;
+    width: 420px;
+    height: 480px;
 }
 .slider-for-img img{
     border-radius: 0px 50px 0px 0px;
