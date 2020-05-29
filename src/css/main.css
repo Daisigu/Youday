@@ -216,7 +216,7 @@ body{
 .slider-for-img{
     position: absolute;
     left: 380px;
-    bottom: 434px;
+    bottom: 479px;
     width: 420px;
     height: 480px;
 }
@@ -247,6 +247,21 @@ padding-top: 6px;
 .characters-nav .slick-center{
     padding-top: 1px;
     font-size: 25px;
+}
+.characters-next-button{
+    position: absolute;
+    transform: rotate(180deg);
+    right: 35px;
+    cursor: pointer;
+    z-index: 2;
+    top: 20px;
+}
+.characters-prev-button{
+    position: absolute;
+    left: 35px;
+    cursor: pointer;
+    top: 20px;
+    z-index: 2;
 }
 
 
@@ -286,7 +301,7 @@ padding-top: 6px;
     margin: 0 auto;
     padding-top: 20px;
     width: 440px;
-    height: 400px;
+    height: 450px;
 }  
 .show-block{
     max-width: 800px;
@@ -311,7 +326,7 @@ padding-top: 6px;
 .show-for-img{
     position: absolute;
     left: 560px;
-    bottom: 390px;
+    bottom: 459px;
     width: 420px;
     height: 480px;
 }
@@ -341,4 +356,19 @@ padding-top: 6px;
 .show-nav .slick-center{
     padding-top: 1px;
     font-size: 25px;
+}
+.show-next-button{
+    cursor: pointer;
+    position: absolute;
+    transform: rotate(180deg);
+    right: 35px;
+    top: 20px;
+    z-index: 2;
+}
+.show-prev-button{
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    left: 35px;
+    top: 20px;
 }
