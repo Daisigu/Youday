@@ -48,6 +48,7 @@ a{
 }
 body{
     font-family: Comfortaa;
+    margin: 0;
 }
 .header-nav{
     display: flex;
@@ -115,7 +116,7 @@ body{
     margin: 0 auto;
     margin-top: 15px;
     opacity: 0.5;
-    height: 3px;
+    height: 2px;
     background: white;
 }
 .main-block p{
@@ -160,7 +161,7 @@ body{
     margin: 0 auto;
     margin-top: 15px;
     opacity: 0.5;
-    height: 3px;
+    height: 2px;
     background: white;
 }
 .about-us-block{
@@ -222,7 +223,7 @@ body{
     margin: 0 auto;
     margin-top: 15px;
     opacity: 0.5;
-    height: 3px;
+    height: 2px;
     background: white;
 }
 .slider-for-img{
@@ -333,7 +334,7 @@ padding-top: 6px;
     margin: 0 auto;
     margin-top: 15px;
     opacity: 0.5;
-    height: 3px;
+    height: 2px;
     background: white;
 }
 .show-for-img{
