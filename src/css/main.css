@@ -189,7 +189,10 @@ body{
     padding: 20px;
 }   
 .characters-block{
-
+    max-width: 800px;
+    position: relative;
+    top: 0;
+    left: 30%;
 }
 .characters-block h1 {
     font-size: 50px;
@@ -219,4 +222,12 @@ body{
 .characters-nav div{
 padding-top: 6px;
 }
-  
+.bc-circle4{
+    position: absolute;
+    left: -450px;
+    top: 70px;
+    width: 450px;
+}
+.slick-center{
+    font-size: 25px;
+}

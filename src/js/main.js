@@ -3,9 +3,7 @@ $(document).ready(function(){
     
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
       arrows: false,
-      autoplaySpeed: 2000,   
     });
     $('.slider-nav').slick({
       slidesToShow: 3,
