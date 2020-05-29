@@ -421,6 +421,12 @@ padding-top: 6px;
     display: flex;
     justify-content: space-between;
 }
+.programs-container p{
+    height: 200px;
+}
+.programs-container img{
+    height: 370px;
+}
 .new-year img, .graduation img, .candy-bar img{
     display: block;
     padding-top: 20px;
@@ -430,24 +436,14 @@ padding-top: 6px;
     position: relative;
     box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.33);
 }
-.new-year h2::before{
+
+.new-year h2::before, .graduation h2::before, .candy-bar h2::before{
     content: "";
     display: block;
     width: 100%;
     margin: 0 auto;
     opacity: 0.5;
     margin-top: 9px;
-    margin-bottom: 20px;
-    height: 2px;
-    background: white;
-}
-.graduation h2::before, .candy-bar h2::before{
-    content: "";
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    opacity: 0.5;
-    margin-top: 16px;
     margin-bottom: 20px;
     height: 2px;
     background: white;
@@ -500,13 +496,20 @@ padding-top: 6px;
 
 @media (max-width: 992px) { 
     .main-header-item a{
-        font-size: 10px;
+        font-size: 11px;
     }
     .about-us-block p{
         font-size: 17px;
     }
     .characters-block{
         left: 5%;
+        max-width: 700px;
+    }
+    .show-block{
+        left: 6%;
+    }
+    .main-header-item{
+        margin: 5px;
     }
     .about-us-block{
         margin-left: 55%;
@@ -524,6 +527,7 @@ padding-top: 6px;
     }
     .characters-wrapper p{
         max-width: 300px;
+        height: 250px;
     }
     .slider-nav{
         max-width: 640px;
@@ -574,25 +578,26 @@ padding-top: 6px;
     }
     .programs-container div{
         max-width: 230px;
-        max-height: 600px;
+        max-height: 550px;
     }
-    .programs-container img{
-        width: 50%;
-        height: auto;
-    }
-    .new-year img{
-        width: 40%;
-    }
+ 
     .special-show-title{
         font-size: 40px;
         max-width: 653px;
     }
     .programs-container p{
         font-size: 13px;
-        padding-bottom: 40px;
+        margin: 0px;
+        margin-top: 10px;
+        height: 150px;
     }
-    .new-year p{
-        padding-bottom: 54px;
+    .programs-container{
+        justify-content: space-around;
+    }
+    .programs-container img{
+        height: 166px;
+        margin-top: 30px;
+        margin-bottom: 77px;
     }
     .programs-container span{
         font-size: 13px;
@@ -600,17 +605,7 @@ padding-top: 6px;
         margin: 0 auto;
         text-align: center;
     }
-    .new-year img{
-        padding-top: 100px;
-        padding-bottom: 45px;
+    .candy-bar h2::before, .graduation h2::before, .new-year h2::before{
+       
     }
-    .graduation img{
-        padding-top: 100px;
-        padding-bottom: 60px;
-    }
-    .candy-bar img{
-        padding-top: 100px;
-        padding-bottom: 65px;
-    }
-    
  }
