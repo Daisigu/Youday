@@ -376,5 +376,42 @@ padding-top: 6px;
 
 
 /* СПЕЦ ПРОГРАММЫ */
+.special-show{
+    background-color: #fff;
+    padding-top: 150px;
+    background-color: #ffefef;
+}
+.special-show-title{
+    opacity: 0.89;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+    width: 853px;
+  height: 76px;
+  font-size: 50px;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 auto;
+  background-color: #a859b8;
+}
+.programs-container div{
+    width: 360px;
+    height: 760px;
+    background-color: #a859b8;
+    border-radius: 50px;
+    background: linear-gradient(  rgb(168,89,184) 50%, rgb(173,108,187) 50%);
+}
+.programs-container{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.new-year img, .graduation img, .candy-bar img{
+    display: block;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.new-year img::after, .graduation img::after, .candy-bar img::after{
+}
 
 
