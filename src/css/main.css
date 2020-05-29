@@ -177,7 +177,6 @@ body{
 }
 .characters-wrapper{
     position: relative;
-    display: inline-block;
     background-color: #ad6cbb;
     border-radius: 50px 50px 0px 0px;
     width: 400px;
@@ -187,7 +186,12 @@ body{
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
     text-align: center;
     padding: 20px;
-}   
+} 
+.characters-wrapper p{
+    font-size: 20px;
+    width: 340px;
+    height: 400px;
+}  
 .characters-block{
     max-width: 800px;
     position: relative;
@@ -198,10 +202,20 @@ body{
     font-size: 50px;
     margin: 0;
 }
+.characters-block h1::after{
+    content: "";
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    opacity: 0.5;
+    height: 3px;
+    background: white;
+}
 .slider-for-img{
     position: absolute;
     left: 380px;
-    top: -40px;
+    bottom: 434px;
     width: 420px;
     height: 480px;
 }
@@ -210,12 +224,13 @@ body{
 
 }
 .characters-nav{
-    padding-top: 30px;
+    padding-top: 10px;
+    text-align: center;
     background-color: rgb(105, 49, 119);
     color: white;
     border-radius: 0px 0px 50px 50px;
     left: 0px;
-    bottom: 40px;
+    bottom: 0px;
     width: 820px;
     height: 60px;
 }
@@ -226,8 +241,9 @@ padding-top: 6px;
     position: absolute;
     left: -450px;
     top: 70px;
-    width: 450px;
+    width: 650px;
 }
-.slick-center{
+.characters-nav .slick-center{
+    padding-top: 1px;
     font-size: 25px;
 }
