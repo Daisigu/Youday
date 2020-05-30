@@ -71,7 +71,7 @@ body{
     background:linear-gradient( -51deg, rgb(165, 66, 187) 0%, rgb(130, 66, 179) 73%, rgb(103, 35, 212) 100%);
 }
 /*  Мы - аниматоры */
-.main-title{
+.description{
     padding-top: 150px;
     padding-bottom: 150px;
     background-color: #ffefef;
@@ -88,7 +88,7 @@ body{
     right: 0;
     max-width: 350px;
 }
-.main-block{
+.description__text{
   
     color: white;
     margin: 0 auto;
@@ -101,14 +101,14 @@ body{
     text-align: center;
     padding: 40px 100px 72px 100px;
 }
-.main-block h1{
+.description__text h1{
     font-size: 52px;
     margin: 0;
 }
-.main-block h3{
+.description__text h3{
     font-size: 30px;
 }
-.main-block h3::after
+.description__text h3::after
 {
     content: "";
     display: block;
@@ -119,7 +119,7 @@ body{
     height: 2px;
     background: white;
 }
-.main-block p{
+.description__text p{
     font-size: 20px;
 }
 
@@ -146,15 +146,15 @@ body{
     height: 100%;
     border-radius: 50px 0px 0px 50px;
 }
-.about-us-block h1{
+.about-us__block h1{
     font-size: 52px;
     margin: 0;
 }
-.about-us-block p{
+.about-us__block p{
  padding-top: 10px;
  font-size: 20px;
 }
-.about-us-block h1::after{
+.about-us__block h1::after{
     content: "";
     display: block;
     width: 200px;
@@ -164,7 +164,7 @@ body{
     height: 2px;
     background: white;
 }
-.about-us-block{
+.about-us__block{
   display: block;
   position: relative;
     margin: 0 auto;
@@ -189,7 +189,7 @@ body{
     padding-bottom: 150px;
     background-color: #ffefef;
 }
-.characters-wrapper{
+.characters__wrapper{
     position: relative;
     background-color: #ad6cbb;
     border-radius: 50px 50px 0px 0px;
@@ -201,22 +201,22 @@ body{
     text-align: center;
     padding: 20px;
 } 
-.characters-wrapper p{
+.characters__wrapper p{
     font-size: 20px;
     width: 340px;
     height: 400px;
 }  
-.characters-block{
+.characters__block{
     max-width: 800px;
     position: relative;
     top: 0;
     left: 30%;
 }
-.characters-block h1 {
+.characters__block h1 {
     font-size: 50px;
     margin: 0;
 }
-.characters-block h1::after{
+.characters__block h1::after{
     content: "";
     display: block;
     width: 200px;
@@ -498,10 +498,10 @@ padding-top: 6px;
     .header__item a{
         font-size: 11px;
     }
-    .about-us-block p{
+    .about-us__block p{
         font-size: 17px;
     }
-    .characters-block{
+    .characters__block{
         left: 5%;
         max-width: 700px;
     }
@@ -511,7 +511,7 @@ padding-top: 6px;
     .header__item{
         margin: 5px;
     }
-    .about-us-block{
+    .about-us__block{
         margin-left: 55%;
         max-width: 300px;
         height: 500px;
@@ -521,18 +521,18 @@ padding-top: 6px;
         max-height: 440px;
         right: 300px;
     }
-    .characters-wrapper {
+    .characters__wrapper {
         max-width: 340px;
         max-height: 400px;
     }
-    .characters-wrapper p{
+    .characters__wrapper p{
         max-width: 300px;
         height: 250px;
     }
     .slider-nav{
         max-width: 640px;
     }
-    .characters-wrapper h1{
+    .characters__wrapper h1{
         font-size: 40px;
     }
     .slider-for-img img{
@@ -544,7 +544,7 @@ padding-top: 6px;
         left: 320px;
         bottom: 330px;
     }
-    .characters-wrapper p{
+    .characters__wrapper p{
         font-size: 17px;
     }
     .show-block{
