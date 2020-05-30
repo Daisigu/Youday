@@ -16,7 +16,7 @@ html{
 li{
     list-style: none;
 }
-.main-header{
+.header{
     display: block;
     width: 100%;
     position: fixed;
@@ -29,20 +29,20 @@ a{
     text-decoration: none;
     color: black;
 }
-.main-header-list{
+.header__list{
     display: flex;
     justify-content: space-between;
     list-style: none;
     align-items: baseline;
 }
-.header-logo{
+.header__logo{
     align-self: center;
 }
 
-.main-header-item{
+.header__item{
     margin: 10px;
 }
-.main-header-item a:hover{
+.header__item a:hover{
     color: rgba(83, 79, 79, 0.575);
     text-decoration: underline;
 }
@@ -50,11 +50,11 @@ body{
     font-family: Comfortaa;
     margin: 0;
 }
-.header-nav{
+.header__nav{
     display: flex;
     justify-content: space-between;
 }
-.header-button{
+.header__button{
     cursor: pointer;
     color: white;
         border-radius: 19px;
@@ -67,7 +67,7 @@ body{
         height: 48px;
      
 }
-.header-button:hover{
+.header__button:hover{
     background:linear-gradient( -51deg, rgb(165, 66, 187) 0%, rgb(130, 66, 179) 73%, rgb(103, 35, 212) 100%);
 }
 /*  Мы - аниматоры */
@@ -495,7 +495,7 @@ padding-top: 6px;
 
 
 @media (max-width: 992px) { 
-    .main-header-item a{
+    .header__item a{
         font-size: 11px;
     }
     .about-us-block p{
@@ -508,7 +508,7 @@ padding-top: 6px;
     .show-block{
         left: 6%;
     }
-    .main-header-item{
+    .header__item{
         margin: 5px;
     }
     .about-us-block{
@@ -659,14 +659,14 @@ padding-top: 6px;
     body.lock{
         overflow: hidden;
     }
-    .main-header-item a{
+    .header__item a{
         font-size: 15px;
     }
-    .main-header-item{
+    .header__item{
         padding-top: 25px;
         position: relative;
     }
-    .main-header-item a::after{
+    .header__item a::after{
         content: '';
         position: absolute;
         width: 4px;
@@ -677,7 +677,7 @@ padding-top: 6px;
         top: 55px;
         margin: 0 -2px 0 0;
     }
-    .main-header-list{
+    .header__list{
         display: block;
         background-color: white;
         position: fixed;
@@ -687,14 +687,14 @@ padding-top: 6px;
         top: -1000%;
         transition: all 0.5s ease 0s;
     }
-    .main-header-list.active{
+    .header__list.active{
         top:0;
         margin: 0;
         left: 0;
         padding: 0;
         transition: all 0.5s ease 0s;
     }
-   .main-header-item{
+   .header__item{
     text-align: center;
    }
  }
