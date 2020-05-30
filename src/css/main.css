@@ -150,7 +150,7 @@ body{
     font-size: 52px;
     margin: 0;
 }
-.about-us__block p{
+.about-us__text{
  padding-top: 10px;
  font-size: 20px;
 }
@@ -201,7 +201,7 @@ body{
     text-align: center;
     padding: 20px;
 } 
-.characters__wrapper p{
+.characters__text{
     font-size: 20px;
     width: 340px;
     height: 400px;
@@ -310,7 +310,7 @@ padding-top: 6px;
     text-align: center;
     padding: 20px;
 } 
-.show__wrapper p{
+.show__text{
     font-size: 20px;
     margin: 0 auto;
     padding-top: 20px;
@@ -421,7 +421,7 @@ padding-top: 6px;
     display: flex;
     justify-content: space-between;
 }
-.special-show__container p{
+.special-show__text{
     height: 200px;
 }
 .special-show__container img{
@@ -498,7 +498,7 @@ padding-top: 6px;
     .header__item a{
         font-size: 11px;
     }
-    .about-us__block p{
+    .about-us__text{
         font-size: 17px;
     }
     .characters__block{
@@ -525,7 +525,7 @@ padding-top: 6px;
         max-width: 340px;
         max-height: 400px;
     }
-    .characters__wrapper p{
+    .characters__text{
         max-width: 300px;
         height: 250px;
     }
@@ -544,7 +544,7 @@ padding-top: 6px;
         left: 320px;
         bottom: 330px;
     }
-    .characters__wrapper p{
+    .characters__text{
         font-size: 17px;
     }
     .show__block{
@@ -562,7 +562,7 @@ padding-top: 6px;
         max-width: 400px;
         max-height: 460px;
     }
-    .show__wrapper p{
+    .show__text{
         max-width: 300px;
         max-height: 350px;
         font-size: 17px;
@@ -582,7 +582,7 @@ padding-top: 6px;
         font-size: 40px;
         max-width: 653px;
     }
-    .special-show__container p{
+    .special-show__text{
         font-size: 13px;
         margin: 0px;
         margin-top: 10px;
