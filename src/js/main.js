@@ -13,7 +13,7 @@ $(document).ready(function(){
     });
   
   
-  $('.slider-for').slick({
+  $('.characters__slider-for').slick({
     
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -22,12 +22,12 @@ $(document).ready(function(){
       
       
     });
-    $('.slider-nav').slick({
+    $('.characters__slider-nav').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
       nextArrow: ' <img class="characters-next-button"src="./src/img/prev.png" alt="">',
       prevArrow:' <img class="characters-prev-button" src="./src/img/prev.png" alt="">',
-      asNavFor: '.slider-for',
+      asNavFor: '.characters__slider-for',
       centerMode: true,
       focusOnSelect: true,
       adaptiveHeight: true

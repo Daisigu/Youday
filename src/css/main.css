@@ -226,14 +226,14 @@ body{
     height: 2px;
     background: white;
 }
-.slider-for-img{
+.characters__slider-for-img{
     position: absolute;
     left: 380px;
     bottom: 475px;
     width: 420px;
     height: 480px;
 }
-.slider-for-img img{
+.characters__slider-for-img img{
     border-radius: 0px 50px 0px 0px;
 
 }
@@ -535,11 +535,11 @@ padding-top: 6px;
     .characters__wrapper h1{
         font-size: 40px;
     }
-    .slider-for-img img{
+    .characters__slider-for-img img{
         width: 180px;
     
     }
-    .slider-for-img{
+    .characters__slider-for-img{
         width: 300px;
         left: 320px;
         bottom: 330px;
