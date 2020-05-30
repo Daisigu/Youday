@@ -294,11 +294,11 @@ padding-top: 6px;
 
 
 
-.show-programs{
+.show{
     background-color: #ffefef;
 }
 
-.show-wrapper{
+.show__wrapper{
     position: relative;
     background-color: #ad6cbb;
     border-radius: 50px 50px 0px 0px;
@@ -310,24 +310,24 @@ padding-top: 6px;
     text-align: center;
     padding: 20px;
 } 
-.show-wrapper p{
+.show__wrapper p{
     font-size: 20px;
     margin: 0 auto;
     padding-top: 20px;
     width: 440px;
     height: 450px;
 }  
-.show-block{
+.show__block{
     max-width: 800px;
     position: relative;
     top: 0;
     left: 0%;
 }
-.show-block h1 {
+.show__block h1 {
     font-size: 50px;
     margin: 0;
 }
-.show-block h1::after{
+.show__block h1::after{
     content: "";
     display: block;
     width: 300px;
@@ -396,7 +396,7 @@ padding-top: 6px;
     padding-top: 150px;
     background-color: #ffefef;
 }
-.special-show-title{
+.special-show__title{
     opacity: 0.89;
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
     width: 853px;
@@ -409,22 +409,22 @@ padding-top: 6px;
   margin: 0 auto;
   background-color: #a859b8;
 }
-.programs-container div{
+.special-show__container div{
     max-width: 360px;
     height: 760px;
     background-color: #a859b8;
     border-radius: 50px;
     background: linear-gradient(  rgb(168,89,184) 50%, rgb(173,108,187) 50%);
 }
-.programs-container{
+.special-show__container{
     padding-top: 25px;
     display: flex;
     justify-content: space-between;
 }
-.programs-container p{
+.special-show__container p{
     height: 200px;
 }
-.programs-container img{
+.special-show__container img{
     height: 370px;
 }
 .new-year img, .graduation img, .candy-bar img{
@@ -505,7 +505,7 @@ padding-top: 6px;
         left: 5%;
         max-width: 700px;
     }
-    .show-block{
+    .show__block{
         left: 6%;
     }
     .header__item{
@@ -547,7 +547,7 @@ padding-top: 6px;
     .characters__wrapper p{
         font-size: 17px;
     }
-    .show-block{
+    .show__block{
         max-width: 700px;
     }
     .show-for-img{
@@ -558,14 +558,14 @@ padding-top: 6px;
     .show-nav{
         max-width: 700px;
     }
-    .show-wrapper{
+    .show__wrapper{
         max-width: 400px;
         max-height: 460px;
     }
-    .show-wrapper h1{
+    .show__wrapper h1{
         font-size: 40px;
     }
-    .show-wrapper p{
+    .show__wrapper p{
         max-width: 300px;
         max-height: 350px;
         font-size: 17px;
@@ -577,37 +577,34 @@ padding-top: 6px;
     .show-nav div{
         font-size: 13px;
     }
-    .programs-container div{
+    .special-show__container div{
         max-width: 230px;
         max-height: 550px;
     }
  
-    .special-show-title{
+    .special-show__title{
         font-size: 40px;
         max-width: 653px;
     }
-    .programs-container p{
+    .special-show__container p{
         font-size: 13px;
         margin: 0px;
         margin-top: 10px;
         height: 150px;
     }
-    .programs-container{
+    .special-show__container{
         justify-content: space-around;
     }
-    .programs-container img{
+    .special-show__container img{
         height: 166px;
         margin-top: 30px;
         margin-bottom: 77px;
     }
-    .programs-container span{
+    .special-show__container span{
         font-size: 13px;
         display: block;
         margin: 0 auto;
         text-align: center;
-    }
-    .candy-bar h2::before, .graduation h2::before, .new-year h2::before{
-       
     }
  }
  @media (max-width: 767px){
