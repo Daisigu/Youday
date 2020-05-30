@@ -50,4 +50,8 @@ $(document).ready(function(){
       adaptiveHeight: true
     });
 
+    $('.header__burger').click(function(e){
+      $('.header__burger, .main-header-list').toggleClass('active');
+      $('body').toggleClass('lock');
+    });
 });
