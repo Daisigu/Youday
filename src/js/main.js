@@ -30,7 +30,17 @@ $(document).ready(function(){
       asNavFor: '.characters__slider-for',
       centerMode: true,
       focusOnSelect: true,
-      adaptiveHeight: true
+      adaptiveHeight: true,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true
+          }
+          },
+        ]
     });
     $('.show__slider-for').slick({
     
@@ -47,7 +57,17 @@ $(document).ready(function(){
       asNavFor: '.show__slider-for',
       centerMode: true,
       focusOnSelect: true,
-      adaptiveHeight: true
+      adaptiveHeight: true,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true
+          }
+          },
+        ]
     });
 
     $('.header__burger').click(function(e){
