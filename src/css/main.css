@@ -771,5 +771,9 @@ padding-top: 6px;
        top: -200px;
        width: 500px;
     }
+    .characters__block{
+        left: 5%;
+        max-width: 500px;
+    }
  }
  
