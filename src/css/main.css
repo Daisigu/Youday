@@ -775,5 +775,20 @@ padding-top: 6px;
         left: 5%;
         max-width: 500px;
     }
+    .special-show__container{
+        display: block;
+    }
+    .special-show__container div{
+        margin: 0 auto;
+        max-width: 100%;
+        max-height: 230px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        background: #ad6cbb ;
+    }
+    .special-show__flex-wrapper{
+        
+    }
  }
  
