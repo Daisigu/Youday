@@ -694,11 +694,13 @@ padding-top: 6px;
   }
   .footer__wrapper{
       display: block;
-      width: 20%;
       margin: 0 auto;
   }
   .footer__wrapper i{  
     padding: 15px;
+  }
+  .footer__list{
+      width: 100px;
   }
   .footer__wrapper i:hover{
     color: rgb(127, 38, 179);
