@@ -501,7 +501,7 @@ padding-top: 6px;
 /*ОТЗЫВЫ*/
 .reviews{
     padding-top: 150px;
-   
+   position: relative;
     background-color: #ffefef;
  
 }
@@ -550,8 +550,8 @@ padding-top: 6px;
 }
 .bc-witch{
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -450px;
+    top: -130px;
     width: 900px;
    
 }
