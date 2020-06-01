@@ -301,6 +301,7 @@ padding-top: 6px;
 
 .show{
     background-color: #ffefef;
+    position: relative;
 }
 
 .show__wrapper{
@@ -370,7 +371,8 @@ padding-top: 6px;
 .bc-candy{
     position: absolute;
     right: 0;
-    width: 400px;
+    top: -100px;
+    width: 500px;
 }
 .show-nav .slick-center{
     padding-top: 1px;
@@ -392,14 +394,19 @@ padding-top: 6px;
     left: 35px;
     top: 20px;
 }
-
-
+  
 
 /* СПЕЦ ПРОГРАММЫ */
 .special-show{
     background-color: #fff;
     padding-top: 150px;
+    position: relative;
     background-color: #ffefef;
+}
+.bc-circle2{
+    position: absolute;
+    top: 200px;
+    left: 0;
 }
 .special-show__title{
     opacity: 0.89;
@@ -417,7 +424,9 @@ padding-top: 6px;
 .special-show__container div{
     max-width: 360px;
     height: 760px;
+    opacity: 0.89;
     background-color: #a859b8;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     background: linear-gradient(  rgb(168,89,184) 50%, rgb(173,108,187) 50%);
 }
@@ -489,6 +498,109 @@ padding-top: 6px;
 }
 
 
+/*ОТЗЫВЫ*/
+.reviews{
+    padding-top: 150px;
+   
+    background-color: #ffefef;
+ 
+}
+
+.reviews__block{
+   height: 350px;
+   padding: 20px;
+   position: relative;
+    max-width: 750px;
+    background-color: #ad6cbb;
+    border-radius: 50px;
+    margin-left: 36%;
+    opacity: 0.89;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+   
+  
+  
+}
+.reviews__text{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.reviews__content span{
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: end;
+}
+.reviews__title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.reviews__title::after{
+    content: "";
+    display: block;
+    max-width: 370px;
+    margin: 0 auto;
+    margin-top: 15px;
+    opacity: 0.5;
+    height: 2px;
+    background: white;
+}
+.bc-witch{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 900px;
+   
+}
+.bc-circle5{
+    position: absolute;
+    right: 0;
+    top: -45px;
+    width: 370px;
+
+   
+}
+
+/* КОНТАКТ*/
+.contact{
+    padding-top: 150px;
+    position: relative;
+    background-color: #ffefef;
+}
+.contact__block {
+    border-radius: 50px;
+    opacity: 0.89;
+    max-width: 616px;
+    height: 501px;
+    background-color: #ad6cbb;
+    padding: 20px;
+ 
+  }
+  .contact__text{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.contact__title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.contact__title::after{
+    content: "";
+    display: block;
+    max-width: 370px;
+    margin: 0 auto;
+    margin-top: 15px;
+    opacity: 0.5;
+    height: 2px;
+    background: white;
+}
 
 
 
