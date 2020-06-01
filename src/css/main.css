@@ -56,6 +56,13 @@ body{
     font-family: Comfortaa;
     margin: 0;
 }
+.header__button a{
+    color: white;
+}
+.header__button a:hover{
+    color: white;
+    text-decoration: none;
+}
 .header__nav{
     display: flex;
     justify-content: space-between;
@@ -67,10 +74,11 @@ body{
         align-self: flex-start;
         background: linear-gradient( -51deg, rgb(207,99,230) 0%, rgb(170,84,234) 73%, rgb(133,69,238) 100%);
         box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.33);
-        max-width: 185px;
+       width: 185px;
         border: none;
         font-family: inherit;
-        height: 48px;
+        height: 55px;
+        font-size: 17px;
      
 }
 .header__button:hover{
@@ -569,8 +577,20 @@ padding-top: 6px;
     padding-top: 150px;
     position: relative;
     background-color: #ffefef;
+    padding-bottom: 150px;
+}
+.bc-wave2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.bc-wave3{
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 .contact__block {
+    margin: 0 auto;
     border-radius: 50px;
     opacity: 0.89;
     max-width: 616px;
@@ -613,19 +633,90 @@ padding-top: 6px;
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
     width: 360px;
     height: 46px;
-    margin-top: 30px;
-    padding: 10px;
+    margin-top: 50px;
+    padding: 15px;
     font-size: 25px;
+    border: none;
+   
+}
+.input-wrapper{
     position: relative;
 }
 .contact__form label{
     position: absolute;
-    top: 0;
-    
+    font-size: 20px;
+    top: 20px;
+    left: 10px;
     color: white;
     
 }
+.Button_send {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 5546px;
+    z-index: 54;
+  }
+  .Отправить {
+    font-size: 20px;
+    font-family: "Comfortaa";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 887.931px;
+    top: 5157.027px;
+    z-index: 53;
+  }
+  .contact__button {
+    border-radius: 21px;
+    background: linear-gradient( -51deg, rgb(207,99,230) 0%, rgb(170,84,234) 73%, rgb(133,69,238) 100%);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: inherit;
+   
+    width: 210px;
+    height: 45px;
+    margin-top: 20px;
+  }
+  .contact__button:hover{
+        background:linear-gradient( -51deg, rgb(165, 66, 187) 0%, rgb(130, 66, 179) 73%, rgb(103, 35, 212) 100%);
+  }
+  
+/* ПОДВАЛ */
 
+.footer {
+    background-color: white;
+    height: 142px;
+    margin-bottom: 40px;
+  }
+  .footer__wrapper{
+      display: block;
+      width: 20%;
+      margin: 0 auto;
+  }
+  .footer__wrapper i{  
+    padding: 15px;
+  }
+  .footer__wrapper i:hover{
+    color: rgb(127, 38, 179);
+  }
+  .footer__wrapper p{
+      text-align: center;
+      margin-top: 0;
+      font-size: 20px;
+     
+  }
+  .footer__list{
+     display: flex;
+     justify-content: space-around;
+     margin: 0 auto;
+     padding: 0;
+  }
+
+  
 
 
 

@@ -26,8 +26,8 @@
          <li class="header__item"><a href="#characters">Персонажи</a></li>
          <li class="header__item"><a href="#show">Шоу программы</a> </li>
          <li class="header__item"><a href="#specialshow">Специальные программы</a> </li>
-         <li class="header__item"><a href="#">Отзывы</a> </li>
-         <li class="header__item"> <button class="header__button">Связаться с нами</button> </li>
+         <li class="header__item"><a href="#review">Отзывы</a> </li>
+         <li class="header__item"> <button class="header__button"><a href="#contact">Связаться с нами</a></button> </li>
       </ul>
    </div>
    </div>
@@ -52,7 +52,7 @@
          <div class="about-us__block">
             
             <div class="about-us__img">
-               <img src="./src/img/4.jpg" alt="">
+               <img src="./src/img/Аниматоры/Барбоскины/бабоскины.jpg" alt="">
             </div>
             <h1 class="about-us__title">О нас</h1>
             <p class="about-us__text"> Мы - молодая компания энтузиастов, готовых помочь вам с оформлением и организацией лучшего праздника за умеренную цену. В нашей команде только самые талантливые люди, всей душой любящие свою работу и в особенности -детей! Мы можем предложить вам большой выбор костюмов, сезонные представления и многое другое</p>
@@ -243,7 +243,7 @@
    </section>
    <section class="reviews">
     
-      <img class="bc-circle5" src="./src/img/circle5.png" alt="">
+      <img id="review" class="bc-circle5" src="./src/img/circle5.png" alt="">
       <div class="container">
       
          <div class="reviews__block">
@@ -260,7 +260,9 @@
          </div>
       </div>
    </section>
-   <section class="contact">
+   <section class="contact" id="contact">
+      <img src="./src/img/bc-wave2.png" alt="" class="bc-wave2">
+      <img src="./src/img/bc-wave3.png" alt="" class="bc-wave3">
       <div class="container">
          <div class="contact__block">
             <h1 class="contact__title">
@@ -272,13 +274,16 @@
                  
                   <div class="input-wrapper">
                      <label for="name">Имя</label>
-                     <input class="form__item" type="text" id="name">
+                     <input class="form__item" placeholder="Ваше имя" type="text" id="name">
                   </div>
                  
                   <div class="input-wrapper">
                      <label for="name">Номер телефона</label>
-                     <input class="form__item" type="text" id="name">
+                     <input class="form__item" placeholder="+7 (_ _ _) _ _ _ _ _" type="text" id="name">
                   </div>
+                  <button type="sumbit" class="contact__button">
+                     Отправить
+                  </button>
                  
                  
                   
@@ -287,6 +292,21 @@
          </div>
       </div>
    </section>
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__wrapper">
+            <ul class="footer__list">
+        <li> <a href=""><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+        </li>
+        <li> <a href=""><i class="fa fa-vk fa-3x" aria-hidden="true"></i></a>
+      </li>
+      </ul>
+         <br>
+         <p>Наш номер телефона</p>
+         <p>+7(999) 999-99-99</p>
+      </div>
+      </div>
+   </footer>
    <script src="build/js/main.min.js"></script>
    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
    <script type="text/javascript" src="./src/lib/slick-1.8.1/slick/slick.min.js"></script>
