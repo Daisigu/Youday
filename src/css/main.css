@@ -200,6 +200,7 @@ body{
 /* CHARACTERS */
 .characters{
     padding-bottom: 150px;
+    position: relative;
     background-color: #ffefef;
 }
 .characters__wrapper{
@@ -831,6 +832,7 @@ padding-top: 6px;
     .bc-witch{
         left: -250px;
         top: -200px;
+        width: 600px;
     }
     .bc-circle5{
         left:0;
@@ -838,6 +840,17 @@ padding-top: 6px;
         width: 200px;
         transform: rotate(180deg);
         z-index: 5;
+    }
+    .bc-crk{
+        top: -250px;
+        left: 0;
+        width: 60%;
+    }
+    .bc-circle4{
+        left: 370px;
+        
+        top: -120px;
+        width: 50%;
     }
     
 
@@ -850,6 +863,9 @@ padding-top: 6px;
         width: 30px;
         height: 20px;
         z-index: 3;
+    }
+    .header{
+        z-index: 100;
     }
     .header__burger::before,
     .header__burger::after{
@@ -1013,6 +1029,20 @@ padding-top: 6px;
     .bc-crk{
        top: -200px;
        width: 500px;
+    }
+    .bc-circle6{
+        width: 40%;
+        left: 60%;
+    }
+    .bc-witch{
+        left:0;
+        width: 500px;
+    }
+  .contact__title{
+      font-size: 40px;
+  }
+    .reviews__block{
+        z-index: 10;
     }
     .characters__block{
         left: 5%;
