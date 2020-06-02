@@ -784,6 +784,7 @@ padding-top: 6px;
     }
     .show__block{
         max-width: 700px;
+        left: 2%;
     }
     .show-for-img{
         max-width: 300px;
@@ -823,6 +824,20 @@ padding-top: 6px;
     }
     .reviews__text{
         font-size: 17px;
+    }
+    .bc-wave2, .bc-wave3{
+        width: 350px;
+    }
+    .bc-witch{
+        left: -250px;
+        top: -200px;
+    }
+    .bc-circle5{
+        left:0;
+        top: 250px;
+        width: 200px;
+        transform: rotate(180deg);
+        z-index: 5;
     }
     
 
@@ -1006,9 +1021,11 @@ padding-top: 6px;
     .reviews__block{
         display: block;
         margin: 0;
+        height: 300px;
     }
     .reviews__text{
         padding-top: 40px;
     }
+  
  }
  
