@@ -411,6 +411,10 @@ padding-top: 6px;
     background-color: #ffefef;
     position: relative;
 }
+.bc-circle6{
+    position: absolute;
+    left: 0;
+}
 .special-show__wrapper{
     position: relative;
     background-color: #ad6cbb;
@@ -760,6 +764,7 @@ padding-top: 6px;
     .characters__text{
         max-width: 300px;
         height: 250px;
+        font-size: 17px;
     }
     .slider-nav{
         max-width: 640px;
@@ -812,18 +817,21 @@ padding-top: 6px;
         max-width: 653px;
     }
     .special-show__text{
-        font-size: 13px;
-        margin: 0px;
+        font-size: 17px;
+        margin: 0 auto;
         margin-top: 10px;
         height: 150px;
     }
     .special-show__container{
         justify-content: space-around;
     }
-    .special-show__container img{
-        height: 166px;
-        margin-top: 30px;
-        margin-bottom: 77px;
+    .special-show__wrapper{
+        height: 460px;
+    }
+  
+    .special-show__slider-for-img{
+width: 320px;
+bottom: 212px;
     }
     .special-show__container span{
         font-size: 13px;
