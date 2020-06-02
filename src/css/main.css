@@ -310,6 +310,7 @@ padding-top: 6px;
 .show{
     background-color: #ffefef;
     position: relative;
+    padding-bottom: 150px;
 }
 
 .show__wrapper{
@@ -406,105 +407,98 @@ padding-top: 6px;
 
 /* СПЕЦ ПРОГРАММЫ */
 .special-show{
-    background-color: #fff;
-    padding-top: 150px;
-    position: relative;
+    padding-bottom: 150px;
     background-color: #ffefef;
+    position: relative;
 }
-.bc-circle2{
-    position: absolute;
-    top: 200px;
-    left: 0;
-}
-.special-show__title{
+.special-show__wrapper{
+    position: relative;
+    background-color: #ad6cbb;
+    border-radius: 50px 50px 0px 0px;
+    width: 400px;
+    height: 560px;
+    color: white;
     opacity: 0.89;
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
-    width: 853px;
-  height: 76px;
-  font-size: 50px;
-  color: white;
-  border-radius: 50px;
-  text-align: center;
-  padding-top: 10px;
-  margin: 0 auto;
-  background-color: #a859b8;
-}
-.special-show__container div{
-    max-width: 360px;
-    height: 760px;
-    opacity: 0.89;
-    background-color: #a859b8;
-    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 50px;
-    background: linear-gradient(  rgb(168,89,184) 50%, rgb(173,108,187) 50%);
-}
-.special-show__container{
-    padding-top: 25px;
-    display: flex;
-    justify-content: space-between;
-}
+    text-align: center;
+    padding: 20px;
+} 
 .special-show__text{
-    height: 200px;
-}
-.special-show__container img{
-    height: 370px;
-}
-.new-year img, .graduation img, .candy-bar img{
-    display: block;
-    padding-top: 20px;
-    margin: 0 auto;
-}
-.new-year, .graduation, .candy-bar{
+    font-size: 20px;
+    width: 340px;
+    height: 400px;
+}  
+.special-show__block{
+    max-width: 800px;
     position: relative;
-    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.33);
+    top: 0;
+    left: 17%;
 }
-
-.new-year h2::before, .graduation h2::before, .candy-bar h2::before{
-    content: "";
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    opacity: 0.5;
-    margin-top: 9px;
-    margin-bottom: 20px;
-    height: 2px;
-    background: white;
-}   
-.new-year h2, .graduation h2, .candy-bar h2{
-    font-size: 30px;
-    text-align: center;
+.special-show__title {
+    font-size: 50px;
     margin: 0;
-    color: white;
 }
-.special-show__text{
-    color: white;
-    text-align: center;
-    padding-left: 15px;
-    font-size: 20px;
-    padding-right: 15px;
-}
-.new-year span, .graduation span, .candy-bar span{
-    color: white;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding-left: 15px;
-    font-weight: bold;
-    font-size: 20px;
-    padding-right: 15px;
-}
-.new-year span::before, .graduation span::before, .candy-bar span::before{
+.special-show__title::after{
     content: "";
     display: block;
-    width: 100%;
+   
     margin: 0 auto;
+    margin-top: 15px;
     opacity: 0.5;
-    margin-top: 16px;
-    margin-bottom: 20px;
     height: 2px;
     background: white;
 }
+.special-show__slider-for-img{
+    position: absolute;
+    left: 380px;
+    bottom: 534px;
+    width: 420px;
+    height: 480px;
+}
+.special-show__slider-for-img img{
+    border-radius: 0px 50px 0px 0px;
 
+}
+.special-show-nav{
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(105, 49, 119);
+    color: white;
+    border-radius: 0px 0px 50px 50px;
+    left: 0px;
+    bottom: 0px;
+    width: 820px;
+    height: 60px;
+}
+.special-show-nav div{
+padding-top: 6px;
+}
+.bc-circle4{
+    position: absolute;
+    left: 0;
+    
+    width: 650px;
+}
+.special-show-nav .slick-center{
+    padding-top: 1px;
+    height: 55px;
+    font-size: 25px;
+}
+.special-show-next-button{
+    position: absolute;
+    transform: rotate(180deg);
+    right: 35px;
+    cursor: pointer;
+    z-index: 2;
+    top: 20px;
+}
+.special-show-prev-button{
+    position: absolute;
+    left: 35px;
+    cursor: pointer;
+    top: 20px;
+    z-index: 2;
+}
 
 /*ОТЗЫВЫ*/
 .reviews{
@@ -656,17 +650,6 @@ padding-top: 6px;
     width: 1920px;
     height: 5546px;
     z-index: 54;
-  }
-  .Отправить {
-    font-size: 20px;
-    font-family: "Comfortaa";
-    color: rgb(255, 255, 255);
-    line-height: 1.2;
-    text-align: center;
-    position: absolute;
-    left: 887.931px;
-    top: 5157.027px;
-    z-index: 53;
   }
   .contact__button {
     border-radius: 21px;

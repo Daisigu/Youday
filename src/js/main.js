@@ -42,6 +42,35 @@ $(document).ready(function(){
           },
         ]
     });
+    $('.special-show__slider-for').slick({
+    
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      adaptiveHeight: true,
+      
+      
+    });
+    $('.special-show__slider-nav').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      nextArrow: ' <img class="special-show-next-button"src="./src/img/prev.png" alt="">',
+      prevArrow:' <img class="special-show-prev-button" src="./src/img/prev.png" alt="">',
+      asNavFor: '.special-show__slider-for',
+      centerMode: true,
+      focusOnSelect: true,
+      adaptiveHeight: true,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true
+          }
+          },
+        ]
+    });
     $('.show__slider-for').slick({
     
       slidesToShow: 1,
