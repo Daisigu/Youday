@@ -98,6 +98,10 @@ $(document).ready(function(){
           },
         ]
     });
+    $('.single-slick').slick({
+      nextArrow: ' <img class="reviews-next-button"src="./src/img/prev.png" alt="">',
+      prevArrow:' <img class="reviews-prev-button" src="./src/img/prev.png" alt="">',
+    });
 
     $('.header__burger').click(function(e){
       $('.header__burger, .header__list').toggleClass('active');

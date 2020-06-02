@@ -355,7 +355,7 @@ padding-top: 6px;
 .show-for-img{
     position: absolute;
     left: 560px;
-    bottom: 459px;
+    bottom: 458px;
     width: 420px;
     height: 480px;
 }
@@ -510,7 +510,7 @@ padding-top: 6px;
 
 .reviews__block{
    height: 350px;
-   padding: 20px;
+   padding: 20px 40px 20px 40px;
    position: relative;
     max-width: 750px;
     background-color: #ad6cbb;
@@ -525,7 +525,7 @@ padding-top: 6px;
 .reviews__text{
     font-size: 20px;
     text-align: center;
-    padding-top: 20px;
+    
     color: white;
 }
 .reviews__content span{
@@ -560,10 +560,25 @@ padding-top: 6px;
     position: absolute;
     right: 0;
     top: -45px;
-    width: 370px;
-
-   
+    width: 370px;  
 }
+.reviews-next-button{
+  
+    cursor: pointer;
+    position: absolute;
+    transform: rotate(180deg);
+    right: -30px;
+    top: 40%;
+    z-index: 2;
+}
+.reviews-prev-button{
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    left: -30px;
+    top: 40%;
+}
+  
 
 /* КОНТАКТ*/
 .contact{
