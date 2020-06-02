@@ -1074,7 +1074,7 @@ padding-top: 6px;
          font-size: 24px;
      }
      .show__title{
-         font-size: 18px;
+         font-size: 17px;
      }
      .special-show__title{
          font-size: 19px;
@@ -1120,51 +1120,54 @@ padding-top: 6px;
          margin-bottom: 0;
      }
      .characters__wrapper{
-        max-width: 190px;
+        max-width: 185px;
         padding: 10px;
         max-height: 320px;
      }
      .special-show__wrapper{
-        max-width: 190px;
-        padding: 10px;
+        max-width: 185px;
+        padding: 7px;
         max-height: 265px;
      }
   
      .characters__slider-for-img{
-         left: 180px;
-         width: 170px;
-         bottom: 174px;
+         left: 175px;
+         width: 165px;
+         bottom: 168px;
      }
      .special-show__slider-for-img{
-         left: 181px;
-         width: 170px;
-         bottom: 190px; 
+         left: 178px;
+         width: 165px;
+         bottom: 180px; 
      }
      .characters__slider-nav, .special-show__slider-nav{
-         max-width: 360px;
+         max-width: 350px;
      }
      .show__text{
-         max-width: 160px;
+         max-width: 150px;
          padding-top: 10px;
-         max-height: 220px;
+         max-height: 230px;
          margin-bottom: 10px;
+     }
+     .show__price{
+        z-index: 2;
      }
 
      .show__wrapper{
-         max-width: 200px;
+         max-width: 190px;
          padding: 10px;
          max-height: 310px;
      }
      .show-for-img{
-         width: 160px;
-         left: 190px;
-         bottom: 159px;
+         width: 150px;
+         left: 180px;
+         bottom: 158px;
      }
      .show__block{
          left: 0%;
      }
      .show__slider-nav{
-         width: 360px;
+         width: 340px;
      }
      .bc-candy{
          width: 40%;
@@ -1183,6 +1186,9 @@ padding-top: 6px;
          width: 40%;
          left: 60%;
      }
+     .header__logo img{
+         width: 50px;
+     }
      .bc-wave2, .bc-wave3{
         width: 190px;
     }
@@ -1191,7 +1197,7 @@ padding-top: 6px;
     }
      .bc-witch{
          left:0;
-         width: 360px;
+         width: 350px;
      }
    .contact__title{
        font-size: 30px;
@@ -1216,7 +1222,7 @@ padding-top: 6px;
      }
      .special-show__block{
          left: 0%;
-         width: 360px;
+         width: 340px;
      }
      .form__item{
         border-radius: 21px;
