@@ -891,6 +891,10 @@ padding-top: 6px;
         height: 2px;
         top: 9px;
     }
+    .header__list .active{
+        position: fixed;
+       
+    }
     .header__burger.active::before{
         transform: rotate(45deg);
         top: 9px;
@@ -913,7 +917,7 @@ padding-top: 6px;
         padding-top: 25px;
         position: relative;
     }
-    .header__item a::after{
+    .header__link::after{
         content: '';
         position: absolute;
         width: 4px;
@@ -1061,5 +1065,172 @@ padding-top: 6px;
         width: 490px;
     }
   
+ }
+ @media (max-width: 540px){
+    .description__content h3{
+        font-size: 20px;
+    }
+     .description__title, .about-us__title, .characters__title, .reviews__title{
+         font-size: 24px;
+     }
+     .show__title{
+         font-size: 18px;
+     }
+     .special-show__title{
+         font-size: 19px;
+     }
+     .description__text{
+         font-size: 17px;
+     }
+     .about-us__text, .characters__text, .show__text, .special-show__text, .reviews__text{
+         font-size: 11px;
+     }
+     .description__content{
+         padding: 20px;
+     }
+     .bc-wave{
+         width: 80%;
+     }
+  
+     .about-us__text{
+         margin-top: 0;
+     }
+     .about-us__block{
+         max-width: 170px;
+         height: 310px;
+         padding: 10px;
+         margin-left: 47%
+     }
+     .about-us__img{
+         max-width: 160px;
+        height: auto;
+         right: 170px;
+         bottom: -5px;
+     }
+     .characters__text {
+         max-width: 170px;
+         height: 215px;
+         margin: 10px auto;
+         margin-bottom: 0;
+     }
+     .special-show__text{
+         max-width: 170px;
+         height: 160px;
+         margin: 10px auto;
+         margin-bottom: 0;
+     }
+     .characters__wrapper{
+        max-width: 190px;
+        padding: 10px;
+        max-height: 320px;
+     }
+     .special-show__wrapper{
+        max-width: 190px;
+        padding: 10px;
+        max-height: 265px;
+     }
+  
+     .characters__slider-for-img{
+         left: 180px;
+         width: 170px;
+         bottom: 174px;
+     }
+     .special-show__slider-for-img{
+         left: 181px;
+         width: 170px;
+         bottom: 190px; 
+     }
+     .characters__slider-nav, .special-show__slider-nav{
+         max-width: 360px;
+     }
+     .show__text{
+         max-width: 160px;
+         padding-top: 10px;
+         max-height: 220px;
+         margin-bottom: 10px;
+     }
+
+     .show__wrapper{
+         max-width: 200px;
+         padding: 10px;
+         max-height: 310px;
+     }
+     .show-for-img{
+         width: 160px;
+         left: 190px;
+         bottom: 159px;
+     }
+     .show__block{
+         left: 0%;
+     }
+     .show__slider-nav{
+         width: 360px;
+     }
+     .bc-candy{
+         width: 40%;
+         top: -10px;
+     }
+     .bc-circle4{
+         width: 350px;
+         left: 0px;
+         transform: scale(-1, 1);
+     }
+     .bc-crk{
+        top: -200px;
+        width: 300px;
+     }
+     .bc-circle6{
+         width: 40%;
+         left: 60%;
+     }
+     .bc-wave2, .bc-wave3{
+        width: 190px;
+    }
+    .reviews{
+        padding-top: 50px;
+    }
+     .bc-witch{
+         left:0;
+         width: 360px;
+     }
+   .contact__title{
+       font-size: 30px;
+   }
+     .reviews__block{
+         z-index: 10;
+     }
+     .characters__block{
+         left: 0%;
+         max-width: 500px;
+     }
+     .container{
+         padding: 7px;
+     }
+     .reviews__block{
+         display: block;
+         margin: 0;
+         height: 300px;
+     }
+     .reviews__text{
+         padding-top: 40px;
+     }
+     .special-show__block{
+         left: 0%;
+         width: 360px;
+     }
+     .form__item{
+        border-radius: 21px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+        width: 260px;
+        height: 46px;
+        margin-top: 50px;
+        padding: 10px;
+        font-size: 22px;
+        border: none;
+    }
+    .contact__text{
+        margin-top: 0;
+    }
  }
  
