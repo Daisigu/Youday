@@ -408,6 +408,12 @@ padding-top: 6px;
     display: flex;
     justify-content: center;
 }
+.tel{
+    padding-right: 20px;
+}
+.Whatsapp{
+    padding-left: 20px;
+}
 
 /* СПЕЦ ПРОГРАММЫ */
 .special-show{
