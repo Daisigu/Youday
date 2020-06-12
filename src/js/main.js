@@ -18,6 +18,7 @@ $(document).ready(function(){
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
+      swipe: false,
       adaptiveHeight: true,
       
       
@@ -46,6 +47,7 @@ $(document).ready(function(){
     
       slidesToShow: 1,
       slidesToScroll: 1,
+      swipe: false,
       arrows: false,
       adaptiveHeight: true,
       
@@ -75,6 +77,7 @@ $(document).ready(function(){
     
       slidesToShow: 1,
       slidesToScroll: 1,
+      swipe: false,
       arrows: false,
       adaptiveHeight: true
     });
