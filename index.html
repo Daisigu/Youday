@@ -437,20 +437,24 @@
             <p class="contact__text">Оставьте свой номер телефона или напишите нам в соцциальных сетях, чтобы мы могли связаться с Вами.</p>
             <div class="form-wrapper">
                <form action="" class="contact__form">
-                 
+                 <!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Твой день">
+		<input type="hidden" name="admin_email" value="bogd228@mail.ru">
+		<input type="hidden" name="form_subject" value="Форма">
+		<!-- END Hidden Required Fields -->
                   <div class="input-wrapper">
                      <label for="name">Имя</label>
-                     <input class="form__item" placeholder="Ваше имя" type="text" id="name">
+                     <input name="Имя" class="form__item" placeholder="Ваше имя" type="text" id="name">
                   </div>
                  
                   <div class="input-wrapper">
                      <label for="name">Номер телефона</label>
-                     <input class="form__item" placeholder="+7 (_ _ _) _ _ _ _ _" type="text" id="name">
+                     <input name="Номер телефона"class="form__item" placeholder="+7 (_ _ _) _ _ _ _ _" type="text" id="name">
                   </div>
-                  <button type="sumbit" class="contact__button">
-                     Отправить
-                  </button>
-                 
+               
+                    <input type="submit" class="contact__button"></input>
+               
+     
                  
                   
                </form>

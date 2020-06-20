@@ -734,7 +734,29 @@ padding-top: 6px;
 
 /* АДАПТИВ */
 
-
+@media (max-width: 1180px){
+    .characters__block{
+        left: 15%;
+    }
+    .header__link{
+        font-size: 14px;
+    }
+    .about-us__block{
+        margin-left: 37%;
+    }
+    .show__wrapper{
+        width: 510px;
+    }
+    .show-for-img{
+        left: 490px;
+    }
+    .show__slider-nav{
+        width: 930px;
+    }
+    .special-show__block{
+        left: 10%;
+    }
+ }
 
 
 
@@ -1252,4 +1274,3 @@ padding-top: 6px;
         margin-top: 0;
     }
  }
- 
